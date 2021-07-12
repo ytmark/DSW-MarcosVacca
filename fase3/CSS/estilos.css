@@ -9,74 +9,45 @@
 header{
     font-weight:bolder;
     font-size: 32px;
-    background-color: rgb(2, 43, 66);
+    background-color: rgb(19, 63, 88);
     padding: 10px;
     text-align: center;
-    color: azure;
-    
+    color:#fff;
 }
-
-nav{
-    padding: 15px;
-    margin: 0;
-    padding: 0;
-    font-size:  20px;
-    
-    
-    
-}  /*menu*/
-
-.navegacion{
-    width: 1000px;
-    margin: 30px auto;
-    background: #fff;
-
-
-}
-.navegacion ul{
-    list-style: none;
-    background-color: rgb(2, 43, 66);
-    
-}
-.menu > li{
-    position: relative;
-    display: inline-block;    
-}
-.menu > li > a{
-    display: block;
-    padding: 15px 20px;
-    color: #f39c74;
-    font-family: 'Open sans';
-    text-decoration: none
-    
-}
-.menu li a:hover{
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    }
+          
+nav li{
+    display:inline-block;
+    width:150px;
+    height:30px;
+    padding:5px 10px;
+    background-color:rgb(5, 64, 119);
+    text-align:center;
+    color:#fff;
+    position:relative;
     color: #ffffff;
     transition: all.3s;
 }
-    /*sud menu*/
+          
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+          
+nav li>ul{
+    display:none;
+    }
 
-.sudmenu1{
-    position: absolute;
-    background: rgb(15, 9, 9);
-    width: 120%;
-    display: none;
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top:30px;
+    left:0px;
 }
-.sudmenu1 li a{
-    display: block;
-    padding: 15px;
-    color: tomato;
-    font-family: 'Open sans';
-    text-decoration: none;
-}
-
-
-.menu li:hover .sudmunu{
-    display: block;
-
-}
-
-
 section{
     grid-column: 1/4;
     background-color: rgb(113, 154, 204);
