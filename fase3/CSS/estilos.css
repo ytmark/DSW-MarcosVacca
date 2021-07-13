@@ -40,7 +40,7 @@ nav li:hover{
           
 nav li>ul{
     display:none;
-    }
+}
 
 nav li:hover>ul{
     display:block;
@@ -51,7 +51,7 @@ nav li:hover>ul{
 section{
     grid-column: 1/4;
     margin: 0.1%;
-    background-color: rgb(147, 178, 216);
+    background-color: rgb(255, 255, 255);
     padding:15% ;
     float: left;
     position: relative;
@@ -67,13 +67,18 @@ article{
 
 aside{
     grid-column: 4/5;
-    background-color: rgb(255, 202, 181);
+    background-color: rgb(87, 129, 139);
     padding: 10px;
+    margin-bottom: 3em;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+  
+    
 
 }
 
 footer{
-    background-color: rgb(38, 45, 46);
+    background-color: rgb(87, 129, 139);
     padding: 20px;
     color: azure;
     width: 100%;
